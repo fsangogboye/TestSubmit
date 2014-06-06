@@ -6,7 +6,6 @@ install: timeText_ui-fi.mo
 	install timeTEXT timeTEXTGUI timeText_ui timeGUI timeTUI /usr/local/bin
 	grep -q "`cat timeTEXT.services`" /etc/services || cat timeTEXT.services >> /etc/services
 	install timeTEXT.xinetd /etc/xinetd.d/timeTEXT
-	/etc/init.d/xinetd restart
 	
 	grep -q "`cat timeTEXTGUI.services`" /etc/services || cat timeTEXTGUI.services >> /etc/services
 	install timeTEXTGUI.xinetd /etc/xinetd.d/timeTEXTGUI
