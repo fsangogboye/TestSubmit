@@ -1,7 +1,5 @@
 #!/bin/sh
 
-DIALOG=${DIALOG=dialog}
-
 #which gdialog 2> /dev/null && DIALOG=gdialog || DIALOG=dialog
 
 end () {
