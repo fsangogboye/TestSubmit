@@ -16,7 +16,7 @@ end () {
 	$DIALOG --inputbox "`$GETTEXT \"Enter Continent/City:\"`" 8 35 2> $na || end
 
        	now1=$(export TZ=`cat $na`;date)
-	na=`cat $now1`
+	na=$now1
 
 	MSG="`$GETTEXT \"Your time is:\"` $now1" 
 	#MSG1="`$GETTEXT \"Hello $na, your time now is:\"` \n\n$now1\\n\\n"
