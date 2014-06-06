@@ -2,10 +2,10 @@
 # description: The time server
 service timeTEXTGUI
 {
-	      flags		      = REUSE
-	      socket_type	  = stream        
-	      wait		      = no  
-	      user		      = nobody
+	flags		= REUSE
+	socket_type	= stream        
+	wait		= no  
+	user		= nobody
       	server	    	= /usr/local/bin/timeTEXTGUI
-        disable		    = no
+        disable		= no
 }
