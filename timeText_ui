@@ -13,7 +13,7 @@ end () {
 	exit
 }
 
-	$DIALOG --inputbox "`$GETTEXT \"Enter Continent/City:\"`" 8 35 2> $na
+	$DIALOG --inputbox "`$GETTEXT \"Enter Continent/City:\"`" 8 35 2> $na || end
 
        	now1=$(export TZ=`cat $na`;date)
 	na1=`cat $now1`
