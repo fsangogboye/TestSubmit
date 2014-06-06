@@ -76,7 +76,7 @@ Exercise 3 NETWORKCLIENT-SERVICE IMPLEMENTATION
 
 TUI IMPLEMENTATION
 
-Step 1. Enter "nc localhost 1234" to run the networkclient service application.
+Step 1. Enter "./client" to run the networkclient service application.
 
 Step 2. Enter the "your_continent/city" and click "OK"
 
@@ -84,7 +84,7 @@ Step 3. This should give you the time in that City
 
 GUI IMPLEMENTATION
 
-Step 1. Enter "nc localhost 4321" to run the networkclient service application.
+Step 1. Enter ".clientGUI" to run the networkclient service application.
 
 Step 2. Enter the "your_continent/city" and click "OK"
 
