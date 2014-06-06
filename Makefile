@@ -1,4 +1,6 @@
 install: timeText_ui-fi.mo
+	chmod 755 client
+	chmod 755 clientGUI
 	yum -y install dialog
 	yum -y install xinetd
 	yum -y install nc
